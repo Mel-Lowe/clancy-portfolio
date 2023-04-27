@@ -1,7 +1,11 @@
 /*Globals*/
+
 :root {
   --main-color: #699a74;
   --secondary-color: #1e6064;
+}
+body {
+  padding-top: 50px;
 }
 h1 {
   font-family: "Baskerville", sans-serif;
@@ -23,11 +27,19 @@ h3 {
 
 p {
   font-family: "Arial", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: black;
 }
 
+.text-highlight {
+  color: var(--main-color);
+}
+
 /*Main content*/
+.about-content p {
+  font-size: 1.34rem;
+}
+
 .acting-credits ul {
   padding-left: 0;
 }
@@ -37,8 +49,24 @@ li {
   font-family: "Arial", sans-serif;
   font-size: 18px;
   color: black;
+  line-height: 1;
 }
 
 .creative-credits ul {
   padding-left: 0;
+}
+
+.img-description {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.img-description h4 {
+  font-family: "Helvetica Light", sans-serif;
+  font-size: 22px;
+  color: var(--secondary-color);
+}
+
+.img-description p {
+  font-size: 18px;
 }
