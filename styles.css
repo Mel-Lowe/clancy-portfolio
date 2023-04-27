@@ -1,0 +1,44 @@
+/*Globals*/
+:root {
+  --main-color: #699a74;
+  --secondary-color: #1e6064;
+}
+h1 {
+  font-family: "Baskerville", sans-serif;
+  font-size: 50px;
+  color: var(--main-color);
+}
+
+h2 {
+  font-family: "Helvetica Light", sans-serif;
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+
+h3 {
+  font-family: "Helvetica Light", sans-serif;
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+p {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+/*Main content*/
+.acting-credits ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.creative-credits ul {
+  padding-left: 0;
+}
